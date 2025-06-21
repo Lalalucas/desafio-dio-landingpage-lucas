@@ -1,24 +1,24 @@
 # 🚀 Desafio DIO: Landing Page Responsiva
 
-Landing page criada automaticamente por **Lucas Gabriel de Morais** como parte do bootcamp DIO.
+Landing Page criada automaticamente por **Lucas Gabriel de Morais** como parte do bootcamp da DIO.
 
-## 💻 Tecnologias utilizadas
+## 💻 Tecnologias
 - HTML5
-- CSS3 (modo escuro)
+- CSS3 (tema escuro)
 - JavaScript puro
 
 ## 🎯 Objetivo
-Colocar em prática os fundamentos da web criando uma landing page moderna, responsiva e escalável.
+Reproduzir o projeto proposto durante o desafio, utilizando boas práticas de estruturação e responsividade.
 
-## 📁 Estrutura
-- `index.html`: Página principal
-- `css/styles.css`: Estilização visual escura e elegante
-- `js/main.js`: Script base
+## 📂 Estrutura
+- `index.html`
+- `css/styles.css`
+- `js/main.js`
 
 ## 🔗 Autor
 - GitHub: [github.com/Lalalucas](https://github.com/Lalalucas)
 - Email: lucasescobarmorais@gmail.com
-- WhatsApp/Signal: +55 62 98245-6245
+- WhatsApp: +55 (62) 98245-6245
 
 ---
-> Desenvolvido com foco, automação e excelência técnica.
+> Automação, técnica e ética no desenvolvimento!
