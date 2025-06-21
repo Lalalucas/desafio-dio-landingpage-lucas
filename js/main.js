@@ -1,3 +1,1 @@
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Landing Page DIO carregada com sucesso!");
-});
+console.log("Landing Page DIO iniciada com sucesso.");
