@@ -1,33 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-BR" class="no-js" data-theme="dark">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>Detona Ralph - Jogo Oficial</title>
-<link rel="stylesheet" href="css/styles.css" />
-<script defer src="js/game.js"></script>
+  <meta charset="UTF-8" />
+  <title>Landing Page DIO</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-<header>
-  <h1>Detona Ralph - O Jogo</h1>
-  <nav aria-label="Menu principal">
-    <ul>
-      <li><button id="startBtn" aria-label="Iniciar jogo">▶️ Iniciar</button></li>
-      <li><button id="resetBtn" aria-label="Reiniciar jogo">🔄 Reiniciar</button></li>
-    </ul>
-  </nav>
-</header>
-<main role="main">
-  <section id="gameArea" aria-live="polite" tabindex="0" aria-label="Área do jogo">
-    <!-- Canvas para animações -->
-    <canvas id="gameCanvas" width="800" height="450" role="img" aria-describedby="gameDesc"></canvas>
-    <p id="gameDesc" hidden>Canvas do jogo Detona Ralph onde o personagem principal destrói blocos e evita obstáculos.</p>
-    <div id="scoreBoard" aria-live="polite">Pontuação: <span id="score">0</span></div>
-  </section>
-</main>
-<footer>
-  <p>Desenvolvido por Lucas Gabriel de Morais | Projeto DIO 2025</p>
-</footer>
+  <header class="animate" data-animation="fade-in">
+    <h1>Desafio DIO - Landing Page Anime</h1>
+  </header>
+  <main>
+    <section>
+      <p>Landing Page criada com HTML, CSS e JS.</p>
+      <div class="gallery">
+        <img src="assets/img/anime1.gif" alt="Anime 1" class="animate" data-animation="zoom-in" data-delay="0.1s">
+        <img src="assets/img/anime2.gif" alt="Anime 2" class="animate" data-animation="zoom-in" data-delay="0.3s">
+        <img src="assets/img/anime3.gif" alt="Anime 3" class="animate" data-animation="zoom-in" data-delay="0.5s">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido por <a href="https://github.com/Lalalucas" target="_blank">Lalalucas</a></p>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
