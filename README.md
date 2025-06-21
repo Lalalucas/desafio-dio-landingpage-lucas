@@ -4,7 +4,7 @@ Landing page criada automaticamente por **Lucas Gabriel de Morais** como parte d
 
 ## 💻 Tecnologias utilizadas
 - HTML5
-- CSS3 (tema escuro)
+- CSS3 (modo escuro)
 - JavaScript puro
 
 ## 🎯 Objetivo
@@ -21,4 +21,4 @@ Colocar em prática os fundamentos da web criando uma landing page moderna, resp
 - WhatsApp/Signal: +55 62 98245-6245
 
 ---
-> Feito com foco, técnica e automação 🛠️
+> Desenvolvido com foco, automação e excelência técnica.
