@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="no-js" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <title>Landing Page DIO</title>
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Detona Ralph - Jogo Oficial</title>
+<link rel="stylesheet" href="css/styles.css" />
+<script defer src="js/game.js"></script>
 </head>
 <body>
-  <header><h1>Desafio DIO: Landing Page Responsiva</h1></header>
-  <main><p>Projeto desenvolvido por Lucas Gabriel de Morais utilizando HTML, CSS e JS.</p></main>
-  <script src="js/main.js"></script>
+<header>
+  <h1>Detona Ralph - O Jogo</h1>
+  <nav aria-label="Menu principal">
+    <ul>
+      <li><button id="startBtn" aria-label="Iniciar jogo">▶️ Iniciar</button></li>
+      <li><button id="resetBtn" aria-label="Reiniciar jogo">🔄 Reiniciar</button></li>
+    </ul>
+  </nav>
+</header>
+<main role="main">
+  <section id="gameArea" aria-live="polite" tabindex="0" aria-label="Área do jogo">
+    <!-- Canvas para animações -->
+    <canvas id="gameCanvas" width="800" height="450" role="img" aria-describedby="gameDesc"></canvas>
+    <p id="gameDesc" hidden>Canvas do jogo Detona Ralph onde o personagem principal destrói blocos e evita obstáculos.</p>
+    <div id="scoreBoard" aria-live="polite">Pontuação: <span id="score">0</span></div>
+  </section>
+</main>
+<footer>
+  <p>Desenvolvido por Lucas Gabriel de Morais | Projeto DIO 2025</p>
+</footer>
 </body>
 </html>
